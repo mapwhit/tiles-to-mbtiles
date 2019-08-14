@@ -1,0 +1,29 @@
+{
+  "name": "tiles-to-mbtiles",
+  "version": "0.0.0",
+  "description": "Create MBTiles file from tiles retrieved from tiles server. ",
+  "author": {
+    "name": "Damian Krzeminski",
+    "email": "pirxpilot@furkot.com",
+    "url": "https://pirxpilot.me"
+  },
+  "repository": "mapwhit/tiles-to-mbtiles",
+  "license": "MIT",
+  "keywords": [
+    "tiles-to-mbtiles",
+    "mbtiles",
+    "tiles",
+    "map"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "^2.10.2"
+  },
+  "scripts": {
+    "test": "make check"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ]
+}

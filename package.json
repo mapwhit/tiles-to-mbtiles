@@ -15,7 +15,14 @@
     "tiles",
     "map"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@mapbox/mbtiles": "^0.11.0",
+    "async": "~3",
+    "concat-stream": "^2.0.0",
+    "debug": "~4",
+    "getlet": "^2.4.0",
+    "limiter": "^1.1.4"
+  },
   "devDependencies": {
     "jshint": "^2.10.2"
   },

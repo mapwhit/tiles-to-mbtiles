@@ -10,15 +10,19 @@ Create MBTiles file from tiles retrieved from tiles server.
 ## Install
 
 ```sh
-$ npm install --save tiles-to-mbtiles
+$ npm -g install tiles-to-mbtiles
 ```
 
 ## Usage
 
-```js
-var tilesToMbtiles = require('tiles-to-mbtiles');
+```
+Usage: tiles-to-mbtiles [options] <file>
 
-tilesToMbtiles('Rainbow');
+Options:
+  --url-pattern <pattern>  format of the tile URL eq. https://example.com/tile/{z}/{x}/{y}.pbf
+  --minzoom <number>       minimal zoom (default: 0)
+  --maxzoom <number>       maximal zoom (default: 14)
+  -h, --help               output usage information
 ```
 
 ## License

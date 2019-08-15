@@ -25,6 +25,12 @@ Options:
   -h, --help               output usage information
 ```
 
+
+## Environment variables
+
+- `TTM_REQ_PER_SECOND` - number of requests per second sent to tile server (20 by default)
+- `TTM_MAX_THREADS` - max number of outstanding threads processing tiles (3 by default)
+
 ## License
 
 MIT © [Damian Krzeminski](https://pirxpilot.me)
